@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: auto;
 }
 
 .menu a {
@@ -348,4 +347,182 @@ footer .autor {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+  .cel {
+    padding: 0px 100px 0px 0px;
+  }
+
+  .texto1 {
+    padding: 130px;
+  }
+
+  .texto1 h1 {
+    font-size: 70px;
+  }
+
+  .feature-content img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 920px) {
+  .texto1 {
+    padding: 100px;
+  }
+
+  .texto1 h1 {
+    font-size: 60px;
+  }
+
+  .boton-f {
+    padding: 10px 10px;
+  }
+
+  .boton-d {
+    padding: 10px 10px;
+  }
+
+  .botones {
+    width: 230px;
+  }
+
+  .texto1 p {
+    margin-bottom: 20px;
+    padding: 10px 0px;
+  }
+
+  .price {
+    padding: 0px;
+  }
+
+  .feature-content img {
+    width: 60%;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .cel {
+    height: 300px;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .texto1 {
+    padding: 30px;
+  }
+
+  .texto1 h1 {
+    font-size: 50px;
+  }
+
+  .botones {
+    width: 200px;
+  }
+
+  .boton-d {
+    padding: 5px 5px;
+  }
+
+  .boton-f {
+    padding: 5px 5px;
+  }
+
+  .features {
+    padding: 80px 20px;
+  }
+
+  .feature-content {
+    align-items: center;
+    gap: 60px;
+  }
+
+  .feature-content img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .features h2 {
+    font-size: 50px;
+  }
+
+  .pricing-cards {
+    flex-wrap: wrap;
+  }
+
+  .menu a {
+    margin: 0 3px;
+  }
+
+  .boton {
+    padding: 5px 5px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .feature-text h3 {
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .texto1 h1 {
+    font-size: 35px;
+  }
+
+  .cel {
+    height: 250px;
+  }
+
+  .botones {
+    width: 130px;
+    flex-wrap: wrap;
+  }
+
+  .menu a {
+    font-size: 10px;
+  }
+
+  .menu img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .features h2 {
+    font-size: 40px;
+  }
+
+  .features {
+    padding: 80px 15px;
+  }
+
+  .feature-content {
+    gap: 20px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-icons img {
+    width: 15px;
+    height: 15px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
 }
